@@ -6,11 +6,18 @@
   --color-shadow-light: rgba(76, 147, 194, 0.25);
   --color-shadow-inner: #143D58;
   --color-primary-opaque: rgba(11, 74, 117, 1);
+  --color-white: rgba(255, 255, 255, 1);
 }
 
 :root, [data-theme=default] {
-  color: white;
-  font-family: "Josephine Sans", arial, sans-serif;
+  --text-base-size: calc(0.5em + 1vw);
+  --text-scale-ratio: 1.2;
+  --text-xs: calc(var(--text-base-size / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md: calc(var(--text-sm) * var(--text-scale-ratio));
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -456,12 +463,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  color: inherit;
+  color: var(--color-white);
+  font-family: var(--font-primary);
 }
 .neumorphic-button:hover {
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25));
   -webkit-box-shadow: 0.25em 0.25em 1em var(--color-shadow-dark), -0.25em -0.25em 1em var(--color-shadow-light);
           box-shadow: 0.25em 0.25em 1em var(--color-shadow-dark), -0.25em -0.25em 1em var(--color-shadow-light);
-  background-color: var(--color-secondary);
+  background: var(--color-secondary) linear-gradient(-45deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25));
   border: 0px solid var(--color-secondary);
 }
