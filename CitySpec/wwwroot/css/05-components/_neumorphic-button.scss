@@ -1,0 +1,20 @@
+@use 'neumorphic-box';
+
+.neumorphic-button {
+  @extend .neumorphic-box;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: inherit;
+
+  &:hover {
+    background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+    box-shadow: 0.25em 0.25em 1em var(--color-shadow-dark),
+                -0.25em -0.25em 1em var(--color-shadow-light);
+
+    background-color: var(--color-secondary);
+    border: 0px solid var(--color-secondary);
+  }
+}

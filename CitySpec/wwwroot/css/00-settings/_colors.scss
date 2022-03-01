@@ -1,0 +1,11 @@
+:root, [data-theme="default"] {
+  --color-primary: rgba(11, 74, 117, 0.87);
+  --color-secondary: rgba(128, 38, 40, 0.87);
+  --color-terciary: rgba(171, 172, 55, 0.45);
+  
+  --color-shadow-dark: rgba(6, 42, 66, 1); //X6, Y6, B18
+  --color-shadow-light: rgba(76, 147, 194, 0.25);
+  --color-shadow-inner: #143D58; //100% opacity, X6, Y6, B50
+
+  --color-primary-opaque: rgba(11, 74, 117, 1);
+}

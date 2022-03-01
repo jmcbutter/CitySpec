@@ -1,0 +1,9 @@
+.neumorphic-box {
+  box-shadow: 0.25em 0.25em 1em var(--color-shadow-dark),
+              0.25em 0.25em 1em var(--color-shadow-inner) inset,
+              -0.25em -0.25em 1em var(--color-shadow-light),
+              0.25em 0.25em 1em var(--color-shadow-inner) inset;
+  background-color: var(--color-primary);
+  border: 5px solid var(--color-primary);
+  border-radius: 25px;
+}
