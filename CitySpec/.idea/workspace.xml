@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42644173-50a3-4e13-87c0-d95c0665159d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CitySpecDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Area.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/AreaFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/City.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Filter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Manual.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/ManualArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/ManualFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Specification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/State.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Subject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/SubjectFilter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CitySpec_Tests/CitySpec_Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CitySpec_Tests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CitySpec.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../CitySpec.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitySpec.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CitySpec.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/CitySpec.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CitySpec.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/CitySpec.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CitySpec.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CitySpec.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CitySpec.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CitySpec.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CitySpec.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/CitySpec.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/CitySpec.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25kwsCF3bnHvrnFANtSTFASWA9c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wwwroot" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42644173-50a3-4e13-87c0-d95c0665159d" name="Changes" comment="" />
+      <created>1646084597062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646084597062</updated>
+      <workItem from="1646084598121" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

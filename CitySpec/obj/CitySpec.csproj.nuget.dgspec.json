@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jmcbu\\OneDrive\\Documents\\Applications\\CitySpec\\CitySpec\\CitySpec.csproj": {}
+    "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jmcbu\\OneDrive\\Documents\\Applications\\CitySpec\\CitySpec\\CitySpec.csproj": {
+    "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmcbu\\OneDrive\\Documents\\Applications\\CitySpec\\CitySpec\\CitySpec.csproj",
+        "projectUniqueName": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj",
         "projectName": "CitySpec",
-        "projectPath": "C:\\Users\\jmcbu\\OneDrive\\Documents\\Applications\\CitySpec\\CitySpec\\CitySpec.csproj",
-        "packagesPath": "C:\\Users\\jmcbu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jmcbu\\OneDrive\\Documents\\Applications\\CitySpec\\CitySpec\\obj\\",
+        "projectPath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj",
+        "packagesPath": "/home/jmcbutter/.nuget/packages/",
+        "outputPath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jmcbu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jmcbutter/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.1.22076.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.1.22076.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }
