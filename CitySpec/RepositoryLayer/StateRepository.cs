@@ -1,9 +1,10 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using CitySpec.DatabaseLayer.EFModels;
+using CitySpec.DatabaseLayer;
+using CitySpec.DatabaseLayer.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CitySpec.DatabaseLayer.RepositoryLayer;
+namespace CitySpec.RepositoryLayer;
 
 public class StateRepository
 {

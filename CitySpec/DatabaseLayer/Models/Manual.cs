@@ -1,4 +1,4 @@
-namespace CitySpec.DatabaseLayer.EFModels;
+namespace CitySpec.DatabaseLayer.Models;
 
 public class Manual
 {

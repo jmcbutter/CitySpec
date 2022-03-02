@@ -1,7 +1,7 @@
-using CitySpec.Model;
+using CitySpec.DatabaseLayer.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CitySpec.Model;
+namespace CitySpec.DatabaseLayer;
 
 public class CitySpecDbContext : DbContext
 {
@@ -18,7 +18,7 @@ public class CitySpecDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        const string connectionString = "";
+        string connectionString = Environment.GetEnvironmentVariable("CitySpec_Database_Connection_String") ?? string.Empty;
         optionsBuilder.UseSqlServer(connectionString);
     }
 

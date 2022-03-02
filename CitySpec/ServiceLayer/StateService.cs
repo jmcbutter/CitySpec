@@ -1,4 +1,4 @@
-namespace CitySpec.DatabaseLayer.ServiceLayer;
+namespace CitySpec.ServiceLayer;
 
 public class StateService
 {
