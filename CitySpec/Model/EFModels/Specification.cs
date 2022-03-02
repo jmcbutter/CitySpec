@@ -12,6 +12,8 @@ public class Specification
     public int SubjectId { get; set; }
     public int FilterId { get; set; }
     
+    //--------------RELATIONSHIPS---------------------------
+    
     public Manual Manual { get; set; }
     public Area Area { get; set; }
     public Subject Subject { get; set; }

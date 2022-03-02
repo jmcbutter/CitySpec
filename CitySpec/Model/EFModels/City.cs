@@ -7,6 +7,10 @@ public class City
     public string CityName { get; set; }
 
     public int StateId { get; set; }
+
     
+    //--------------RELATIONSHIPS---------------------------
+
     public State State { get; set; }
+    public ICollection<Manual> Manuals { get; set; }
 }
