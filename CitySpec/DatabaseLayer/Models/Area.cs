@@ -1,4 +1,4 @@
-namespace CitySpec.Model;
+namespace CitySpec.DatabaseLayer.EFModels;
 
 public class Area
 {

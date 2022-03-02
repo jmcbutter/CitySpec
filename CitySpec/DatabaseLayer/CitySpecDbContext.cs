@@ -1,12 +1,10 @@
 using CitySpec.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace CitySpec;
+namespace CitySpec.Model;
 
 public class CitySpecDbContext : DbContext
 {
-    private const string ConnectionString = @"Server=(localdb)";
-    
     public DbSet<Area> Areas { get; set; }
     public DbSet<City> Cities { get; set; }
     public DbSet<Filter> Filters { get; set; }
@@ -20,7 +18,8 @@ public class CitySpecDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer();
+        const string connectionString = "";
+        optionsBuilder.UseSqlServer(connectionString);
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
