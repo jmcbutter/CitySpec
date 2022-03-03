@@ -2,6 +2,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using CitySpec.DatabaseLayer;
 using CitySpec.DatabaseLayer.Models;
+using CitySpec.Exceptions;
 using Microsoft.EntityFrameworkCore;
 
 namespace CitySpec.RepositoryLayer;
@@ -26,7 +27,7 @@ public class StateRepository
 
     public virtual async Task<State> GetStateByName(string name)
     {
-        if (IsInvalidStateName(name))
+        if (name.IsInvalidName())
         {
             throw new StateNotFoundException();
         }

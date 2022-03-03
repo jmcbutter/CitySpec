@@ -23,7 +23,12 @@ public class StateRepositoryTests
             new DbContextOptionsBuilder<CitySpecDbContext>().UseInMemoryDatabase("CitySpec").Options;
         _context = new CitySpecDbContext(dbContextOptions);
 
-        State state = new State();
+        State state = new State
+        {
+            StateId = 0,
+            StateName = "Alabama"
+        };
+        
         _context.States.Add(state);
         _context.SaveChanges();
         
@@ -34,6 +39,6 @@ public class StateRepositoryTests
     [Fact]
     public void GetStateByName_Success()
     {
-        
+        _repository.GetStateByName("Arkansas");
     }
 }

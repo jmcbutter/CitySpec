@@ -8011,11 +8011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec_Tests/CitySpec_Tests.csproj",
+      "projectUniqueName": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec_Tests/CitySpec_Tests.csproj",
       "projectName": "CitySpec_Tests",
-      "projectPath": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec_Tests/CitySpec_Tests.csproj",
+      "projectPath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec_Tests/CitySpec_Tests.csproj",
       "packagesPath": "/home/jmcbutter/.nuget/packages/",
-      "outputPath": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec_Tests/obj/",
+      "outputPath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec_Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jmcbutter/.nuget/NuGet/NuGet.Config"
@@ -8030,8 +8030,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec/CitySpec.csproj": {
-              "projectPath": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec/CitySpec.csproj"
+            "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj": {
+              "projectPath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj"
             }
           }
         }

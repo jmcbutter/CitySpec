@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FXFFKkqprAeYYX/t4aIKtX2WWHQs5Xw1DSNLmksVG03pR8z3a0J/bkWe8ycU9nJKUIA9KrmBQlHZD1Q8xJFMnw==",
+  "dgSpecHash": "iSPZlMGs9gTLB7md3jBKGjaAH2N9K6CT+oOmmiwg1prPWJRjjrvP4ioYV/En+4ZM0vm9qdzNlxYlhoTiaotesw==",
   "success": true,
-  "projectFilePath": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec/CitySpec.csproj",
+  "projectFilePath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj",
   "expectedPackageFiles": [
     "/home/jmcbutter/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/home/jmcbutter/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",
