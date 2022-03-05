@@ -2956,11 +2956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj",
+      "projectUniqueName": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec/CitySpec.csproj",
       "projectName": "CitySpec",
-      "projectPath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/CitySpec.csproj",
+      "projectPath": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec/CitySpec.csproj",
       "packagesPath": "/home/jmcbutter/.nuget/packages/",
-      "outputPath": "/home/jmcbutter/ASP.NET_Projects/CitySpec/CitySpec/obj/",
+      "outputPath": "/home/jmcbutter/ASPNET_Projects/CitySpec/CitySpec/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jmcbutter/.nuget/NuGet/NuGet.Config"

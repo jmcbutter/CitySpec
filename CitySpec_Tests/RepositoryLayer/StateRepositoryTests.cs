@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using CitySpec.DatabaseLayer;
 using CitySpec.DatabaseLayer.Models;
@@ -37,8 +38,13 @@ public class StateRepositoryTests
     }
     
     [Fact]
-    public void GetStateByName_Success()
-    {
-        _repository.GetStateByName("Arkansas");
+    public async Task GetStateByName_Success()
+    { 
+        State state = await _repository.GetStateByName("Alabama");
+        State dbState = _context.States.First();
+        Assert.NotNull(state);
+        
+        Assert.Equal(state.StateId, dbState.StateId);
+        Assert.Equal(state.StateName, dbState.StateName);
     }
 }
